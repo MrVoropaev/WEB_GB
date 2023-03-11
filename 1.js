@@ -9,9 +9,7 @@
 
 
 const tempCelsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
-
 alert(`Цельсий = ${tempCelsius} , Фаренгейт = ${temperatureCelsiusToFarenhait(tempCelsius)}`)
-
 function temperatureCelsiusToFarenhait(tempc) {
     const tempFarenhait = (9 / 5) * tempc + 32;
     return Math.round(tempFarenhait*100)/100;

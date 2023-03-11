@@ -3,9 +3,7 @@
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда данное значение.
 
 const welcome = prompt("Как вас зовут?");
-
 greeting(welcome);
-
 function greeting(InputName) {
     console.log("Привет, " + InputName);
 }
